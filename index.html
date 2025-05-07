@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Form Example</title>
+  <script type="module" src="./framework/dynamic-form.js"></script>
+  <script>
+    function handleFormSubmit(data) {
+      alert(JSON.stringify(data, null, 2));
+    }
+  </script>
+</head>
+<body>
+
+  <dynamic-form 
+    lang="he"
+    input-label="הוסף שדה"
+    submit-callback="handleFormSubmit"
+    options='[{"value": "non-flour", "label": "לא קמח", "type" : "number"}, {"value": "flour", "label": "קמח", "type" : "number"}]'
+  >
+  </dynamic-form>
+
+</body>
+</html>
