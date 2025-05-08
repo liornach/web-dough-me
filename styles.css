@@ -1,0 +1,11 @@
+label {
+    display: block;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
