@@ -12,7 +12,7 @@ class DoughForm extends HTMLElement {
         const baseIngredients = this.getAttribute('base-ingredients');
         baseIngredients.forEach( ing => {
             const nameAttr = ing.name();
-            const 
+            
         });
     }
 }
